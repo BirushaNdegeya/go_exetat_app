@@ -1,7 +1,15 @@
-import { Text } from "react-native"
+import { StyleSheet, Text } from "react-native"
 
 const Welcome = () => {
-   return <Text className="font-md text-2xl">Hello Birusha</Text>
+   return <Text>Hello Birusha</Text>
 };
+
+// stylesheet definition
+
+const styles = StyleSheet.create({
+   text: {
+      fontSize: 40,
+   }
+})
 
 export default Welcome;

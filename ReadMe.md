@@ -15,3 +15,8 @@ npx expo start
 ```
 
 va ouvrir soit android, ios & web
+
+
+# some usefuls links
+
+:x:
