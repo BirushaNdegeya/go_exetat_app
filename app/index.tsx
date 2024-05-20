@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { Button, Text, View } from "react-native";
 
 export default function Page() {
   return (
@@ -14,6 +14,7 @@ export default function Page() {
       >
         Hello didjdkdkkjjfjfjj
       </Text>
+      <Button title="Go home" />
     </View>
   );
 }
