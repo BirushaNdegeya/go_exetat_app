@@ -1,11 +1,11 @@
 import { View, Text, StyleSheet } from "react-native";
 
 
-export default function Welcome () {
+export default function Settings () {
    const { container, text } = styles;
    return (
       <View style={container}>
-         <Text style={text}>WELCOME SCREEN</Text>
+         <Text style={text}>EXPLORE SCREEN</Text>
       </View>
    );
 }
