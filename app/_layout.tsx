@@ -1,13 +1,18 @@
-<<<<<<< HEAD
-import { Tabs } from "expo-router";
+import { Redirect, Stack, Tabs } from 'expo-router';
 
-export default function RootLayout() {
-  return <Tabs />;
-}
-=======
-import { Stack } from "expo-router";
 
-export default function RootLayout() {
-  return <Stack />;
+export default function StackLayout() {
+   return (
+      <Tabs>
+         <Tabs.Screen name='index' options={{
+            title: "Home"
+         }}/>
+         <Tabs.Screen name='explore' options={{
+            title: 'Challenge'
+         }} />
+         <Tabs.Screen name='setting' options={{
+            title: 'Explore'
+         }} />
+      </Tabs>
+   );
 }
->>>>>>> 4c4d743 (fix same errors)

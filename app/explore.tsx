@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 
 
-export default function Settings () {
+export default function Explore () {
    const { container, text } = styles;
    return (
       <View style={container}>

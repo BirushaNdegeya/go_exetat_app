@@ -1,11 +1,13 @@
 import { View, Text, StyleSheet } from "react-native";
+import { Link } from "expo-router";
 
 
-export default function Welcome () {
+export default function Home () {
    const { container, text } = styles;
    return (
       <View style={container}>
-         <Text style={text}>WELCOME SCREEN</Text>
+         <Text style={text}>HOME SCREEN</Text>
+         <Link href={'/'}>Welcome Screen</Link>
       </View>
    );
 }
@@ -18,8 +20,6 @@ const styles = StyleSheet.create({
       backgroundColor: '#F5FCFF',
    },
    text: {
-      fontSize: 20,
-      textAlign: 'center',
-      margin: 10,
+      fontSize: 24,
    }
 })
