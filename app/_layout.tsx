@@ -1,18 +1,10 @@
-import { Redirect, Stack, Tabs } from 'expo-router';
+import { Stack } from 'expo-router/stack';
 
 
-export default function StackLayout() {
-   return (
-      <Tabs>
-         <Tabs.Screen name='index' options={{
-            title: "Home"
-         }}/>
-         <Tabs.Screen name='explore' options={{
-            title: 'Challenge'
-         }} />
-         <Tabs.Screen name='setting' options={{
-            title: 'Explore'
-         }} />
-      </Tabs>
-   );
+export default function Layout() {
+  return (
+    <Stack>
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+    </Stack>
+  );
 }
