@@ -1,13 +1,14 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
-import Ionicons from '@expo/vector-icons/Ionicons';
+// import Ionicons from '@expo/vector-icons/Ionicons';
 
 
 export default function Home () {
    const { container, text } = styles;
    return (
-      <ScrollView style={container}>
+      <View style={container}>
+      <ScrollView>
          <Text style={text}>EXPLORE SCREEN</Text>
-         <Ionicons />
+         {/* <Ionicons  name="laptop" size={24} color={'red'}/> */}
          <Text>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint velit odit laudantium. Natus cumque numquam esse itaque provident voluptates? Voluptas omnis fugiat fuga necessitatibus cumque veritatis, perferendis adipisci nesciunt.
             Quaerat aperiam voluptas quidem ea ratione sequi cumque expedita accusamus eaque nobis delectus adipisci excepturi, harum mollitia asperiores. Veritatis reiciendis eos nisi fuga aspernatur. Iusto qui dolores exercitationem consectetur voluptate.
@@ -22,6 +23,7 @@ export default function Home () {
             Nisi natus fuga animi, eaque veritatis modi aperiam quod accusamus, culpa, corporis laborum similique mollitia quas facere rerum dolorum 
          </Text>
       </ScrollView>
+      </View>
    );
 }
 
